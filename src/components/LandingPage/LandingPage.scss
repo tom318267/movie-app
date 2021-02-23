@@ -1,0 +1,75 @@
+.LandingPage {
+  overflow: hidden;
+  .head-container {
+    display: flex;
+    width: 100vw;
+    height: 400px;
+    background: #e3342f;
+    font-family: "Fredoka One", cursive;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    @media screen and (max-width: 425px) {
+      height: unset;
+      #lottie {
+        width: 300px !important;
+      }
+    }
+
+    i {
+      cursor: pointer;
+    }
+
+    h1 {
+      font-size: 64px;
+      color: #ffffff;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.69);
+
+      @media screen and (max-width: 425px) {
+        font-size: 36px;
+      }
+    }
+
+    h3 {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      color: #ffffff;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+      @media screen and (max-width: 425px) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .search-input {
+    margin-right: 25px;
+    i {
+      position: relative;
+      left: 35px;
+      top: 2px;
+      font-size: 1.5rem;
+    }
+    input {
+      margin-top: 20px;
+      padding: 10px;
+      border-radius: 15px;
+      border: none;
+      font-size: 1.2rem;
+      padding-left: 50px;
+    }
+  }
+
+  .no-results {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 3rem;
+    font-family: "Nunito", sans-serif;
+  }
+}
