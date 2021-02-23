@@ -17,7 +17,7 @@ const LandingPage = () => {
     e.preventDefault();
     try {
       const res = await axios.get(
-        `http://www.omdbapi.com/?apikey=b9fd14eb&s=${term}`
+        `https://www.omdbapi.com/?apikey=b9fd14eb&s=${term}`
       );
       setResults(res.data);
       console.log(results);

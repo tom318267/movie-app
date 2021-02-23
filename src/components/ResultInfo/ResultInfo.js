@@ -11,7 +11,7 @@ const ResultInfo = ({ match }) => {
     window.scrollTo(0, 0);
     const fetchData = async () => {
       const res = await axios.get(
-        `http://www.omdbapi.com/?apikey=b9fd14eb&i=${id}&plot=full`
+        `https://www.omdbapi.com/?apikey=b9fd14eb&i=${id}&plot=full`
       );
       setMovieInfo(res.data);
     };
