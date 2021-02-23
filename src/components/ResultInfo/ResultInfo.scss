@@ -36,6 +36,7 @@
 
       @media screen and (max-width: 425px) {
         font-size: 1rem;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
       }
     }
   }
@@ -75,8 +76,8 @@
       gap: 40px;
 
       @media screen and (max-width: 425px) {
-        gap: 40px;
-        width: fit-content;
+        gap: 20px;
+        width: inherit;
       }
 
       img {
