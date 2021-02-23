@@ -2,10 +2,17 @@
   background: #e3342f;
   width: 100vw;
   overflow: hidden;
-
   padding: 0 0 600px 0;
 
+  @media screen and (max-width: 425px) {
+    height: 200px;
+  }
+
   .info-header {
+    @media screen and (max-width: 425px) {
+      position: relative;
+      bottom: 20px;
+    }
     a {
       text-decoration: none;
     }
@@ -77,8 +84,8 @@
         border-radius: 10px;
 
         @media screen and (max-width: 425px) {
-          width: 150px;
-          height: 189px;
+          width: 108px;
+          height: 154px;
         }
       }
 
