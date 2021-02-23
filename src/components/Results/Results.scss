@@ -4,6 +4,10 @@
     flex-wrap: wrap;
     margin-top: 50px;
     text-align: center;
+
+    @media screen and (max-width: 425px) {
+      margin-top: 25px;
+    }
   }
 
   .weFound {
